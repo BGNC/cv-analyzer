@@ -1,4 +1,4 @@
-package com.bgnc.cv_analyzer.dto;
+package com.bgnc.cv_analyzer.dto.request;
 
 import com.bgnc.cv_analyzer.enums.Role;
 import jakarta.persistence.Column;
@@ -10,7 +10,7 @@ import lombok.Data;
 public class RegisterRequest {
 
     @NotNull
-    @Email
+    @Email(message = "Email is required for authentication and fill in the blanks.")
     @Column(unique = true)
     private String email;
 
