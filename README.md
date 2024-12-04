@@ -34,7 +34,7 @@ CV Analyzer is a Spring Boot-based application designed to simplify the recruitm
 - ChatGPT API Key
 
 ### Clone the Repository
-
+```bash
 git clone https://github.com/<your-username>/cv-analyzer.git
 cd cv-analyzer
 
