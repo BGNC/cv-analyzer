@@ -35,7 +35,7 @@ CV Analyzer is a Spring Boot-based application designed to simplify the recruitm
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/cv-analyzer.git
+git clone https://github.com/BGNC/cv-analyzer.git
 cd cv-analyzer
 
 Configure the Application
