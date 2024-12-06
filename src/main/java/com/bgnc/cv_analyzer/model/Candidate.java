@@ -37,7 +37,7 @@ public class Candidate extends BaseEntity implements UserDetails {
     private String surname;
 
     @NotNull
-    private String password; // Şifre hashlenmiş olarak saklanacak
+    private String password; // password should have been hash
 
     @Enumerated(EnumType.STRING)
     @NotNull
